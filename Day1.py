@@ -11,3 +11,6 @@ print("Hello", "World", 123, sep="#")
 print("Hello", end="\n")
 print("World!", end="\n")
 print(123)
+
+# Complex number
+print(5 + 6j)
