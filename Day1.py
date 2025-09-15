@@ -26,3 +26,8 @@ print({"type", 2324, False})
 
 # Dictionary
 print({"Name": "Abdullah", "Roll No": 123})
+
+# String examples
+print('My name is Abdullah')
+print("My name is" + " " + "Abdullah")
+print('''Abdullah''')
