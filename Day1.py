@@ -31,3 +31,8 @@ print({"Name": "Abdullah", "Roll No": 123})
 print('My name is Abdullah')
 print("My name is" + " " + "Abdullah")
 print('''Abdullah''')
+
+# Type checking
+print(type(123))
+print(type(True))
+print(type([1, 2, 3, 5]))
