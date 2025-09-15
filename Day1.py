@@ -14,3 +14,6 @@ print(123)
 
 # Complex number
 print(5 + 6j)
+
+# List
+print([1, 2, "h"])
