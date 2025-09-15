@@ -39,3 +39,7 @@ print(type([1, 2, 3, 5]))
 
 # Large integer
 print(353242342223423525225235235235)
+
+# Infinity examples
+print(1e309)
+print(1.7e309)
