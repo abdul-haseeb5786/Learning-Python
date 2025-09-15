@@ -36,3 +36,6 @@ print('''Abdullah''')
 print(type(123))
 print(type(True))
 print(type([1, 2, 3, 5]))
+
+# Large integer
+print(353242342223423525225235235235)
