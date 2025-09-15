@@ -55,3 +55,19 @@ name = 5
 print(name)
 name = 6
 print(name)
+
+n1 = 3
+n2 = 5
+print(n1)
+print(n2)
+
+n1, n2, n3 = 5, 6, 9
+print(n1, n2, n3)
+
+a, b, c = 2, 3, 4
+print(a, b, c)
+
+a = b = c = 10
+print(a, b, c)
+a = b = c = 11
+print(a, b, c)
