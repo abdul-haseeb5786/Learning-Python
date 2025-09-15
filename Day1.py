@@ -71,3 +71,13 @@ a = b = c = 10
 print(a, b, c)
 a = b = c = 11
 print(a, b, c)
+
+# Python keywords
+import keyword
+print(keyword.kwlist)
+
+__ = "Name"
+print(__)
+
+Abdul_ = 'Abdul'
+print(Abdul_)
