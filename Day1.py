@@ -17,3 +17,6 @@ print(5 + 6j)
 
 # List
 print([1, 2, "h"])
+
+# Tuple
+print((544, 'dfgdf', True))
