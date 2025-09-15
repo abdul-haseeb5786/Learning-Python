@@ -23,3 +23,6 @@ print((544, 'dfgdf', True))
 
 # Set
 print({"type", 2324, False})
+
+# Dictionary
+print({"Name": "Abdullah", "Roll No": 123})
