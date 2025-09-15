@@ -43,3 +43,6 @@ print(353242342223423525225235235235)
 # Infinity examples
 print(1e309)
 print(1.7e309)
+
+# Float + integer
+print(123 + 3.56)
