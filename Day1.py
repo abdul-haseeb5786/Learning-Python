@@ -46,3 +46,12 @@ print(1.7e309)
 
 # Float + integer
 print(123 + 3.56)
+
+# Print function again
+print("Hello")
+
+# Variables
+name = 5
+print(name)
+name = 6
+print(name)
