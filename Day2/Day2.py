@@ -95,3 +95,26 @@ print(x > y, x < y)
 print(x >= y, x <= y)
 print(x == y, x != y)
 
+# Logical
+p, q = True, False
+print(p and q)
+print(p or q)
+print(not p)
+
+# Assignment
+a = 3
+print(a)
+a += 1
+print(a)
+a -= 1
+print(a)
+a *= 2
+print(a)
+a /= 2
+print(a)
+a %= 2
+print(a)
+a //= 2
+print(a)
+a **= 2
+print(a)
