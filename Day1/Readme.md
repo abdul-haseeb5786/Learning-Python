@@ -15,7 +15,7 @@ This file contains the `Day1.py` file, which covers fundamental Python concepts 
 2. Open a terminal and navigate to this directory.
 3. Run the script:
     ```bash
-    python day1.py
+    python Day1.py
     ```
 
 ## Learning Objectives
