@@ -69,3 +69,7 @@ print(raw_str)
 a = True + 9
 b = False + 4
 print(a, b)
+
+# Special literal
+a = None
+print(a)
