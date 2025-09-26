@@ -54,3 +54,14 @@ x = 2.4j
 print(float_1, float_2, float_3)
 print(x, x.real, x.imag)
 
+# String
+string = "I am Abdullah"
+multiline_str = """This is
+a multiline string"""
+unicode_str = u"\U0001f600" # 😀
+raw_str = r"raw \n string"
+print(string)
+print(multiline_str)
+print(unicode_str)
+print(raw_str)
+
