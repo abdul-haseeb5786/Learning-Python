@@ -46,3 +46,11 @@ c = 0o310   # octal
 d = 0x12c   # hexa
 print(a, b, c, d)
 
+# Float & complex
+float_1 = 100.5
+float_2 = 1.5e2
+float_3 = 4.6e-3
+x = 2.4j
+print(float_1, float_2, float_3)
+print(x, x.real, x.imag)
+
