@@ -19,3 +19,16 @@ print("\n--- Implicit Type Conversion ---")
 print(9 + 9.5)      # int + float
 print(5 + 6+7j)     # int + complex
 print(2.5 + 9 + 5j) # float + complex
+
+# Explicit
+print("\n--- Explicit Type Conversion ---")
+print(int(7.8))        # float → int
+print(float(9))        # int → float
+print(int("45"))       # string → int
+print(str(45))         # int → string
+print(str(6.7))        # float → string
+print(float("6.7"))    # string → float
+print(bool(0))         # int → bool
+print(int(False))      # bool → int
+print(complex(5))      # int → complex
+
