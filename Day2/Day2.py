@@ -65,3 +65,7 @@ print(multiline_str)
 print(unicode_str)
 print(raw_str)
 
+# Boolean
+a = True + 9
+b = False + 4
+print(a, b)
