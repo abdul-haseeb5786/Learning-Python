@@ -73,3 +73,25 @@ print(a, b)
 # Special literal
 a = None
 print(a)
+
+# ================================
+# OPERATORS
+# ================================
+print("\n--- Operators ---")
+
+# Arithmetic
+x, y = 7, 2
+print(x+y)   # addition
+print(x-y)   # subtraction
+print(x*y)   # multiplication
+print(x/y)   # division (float)
+print(x%y)   # modulus
+print(x//y)  # floor division
+print(x**y)  # exponent
+
+# Comparison
+x, y = 15, 10
+print(x > y, x < y)
+print(x >= y, x <= y)
+print(x == y, x != y)
+
