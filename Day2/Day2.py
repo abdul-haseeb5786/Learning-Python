@@ -32,3 +32,17 @@ print(bool(0))         # int → bool
 print(int(False))      # bool → int
 print(complex(5))      # int → complex
 
+# Invalid conversion (will raise error)
+# print(int("Karachi"))
+
+# ================================
+# LITERALS
+# ================================
+print("\n--- Literals ---")
+# Numeric
+a = 0b1010  # binary
+b = 100     # decimal
+c = 0o310   # octal
+d = 0x12c   # hexa
+print(a, b, c, d)
+
