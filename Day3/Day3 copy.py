@@ -3,26 +3,6 @@
 
 
 
-# AND operator
-a, b, c = 200, 33, 500
-if a > b and c > a:
-    print("Both conditions are True")
-
-# OR operator
-if a > b or a > c:
-    print("At least one condition is True")
-
-# Nested if
-x = 8
-if x > 10:
-    print("Above 10,")
-    if x > 20:
-        print("and also above 20!")
-    else:
-        print("but not above 20.")
-else:
-    print("Less than 10")
-
 
 # -----------------------------
 # Marksheet Program
