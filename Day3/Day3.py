@@ -22,3 +22,15 @@ n = [1, 2, 3, 4]
 print(m is n)       # False (different objects in memory)
 print(m == n)       # True (values are the same)
 print(m is not n)   # True
+
+# -----------------------------
+# Membership Operators
+# -----------------------------
+x = "Islamabad"
+print("I" in x)       # True
+print("s" not in x)   # False
+
+x = [1, 2, 3, 4, 5]
+print(3 in x)         # True
+print(6 not in x)     # True
+
