@@ -1,16 +1,5 @@
 
 
-# -----------------------------
-# Membership Operators
-# -----------------------------
-x = "Islamabad"
-print("I" in x)       # True
-print("s" not in x)   # False
-
-x = [1, 2, 3, 4, 5]
-print(3 in x)         # True
-print(6 not in x)     # True
-
 
 # -----------------------------
 # Bitwise Operators
