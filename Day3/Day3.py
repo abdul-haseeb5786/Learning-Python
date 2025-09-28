@@ -34,3 +34,10 @@ x = [1, 2, 3, 4, 5]
 print(3 in x)         # True
 print(6 not in x)     # True
 
+# -----------------------------
+# Bitwise Operators
+# -----------------------------
+print(6 & 3)   # AND → 2
+print(6 | 3)   # OR  → 7
+print(~3)      # NOT → -4
+
