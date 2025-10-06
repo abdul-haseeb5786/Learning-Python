@@ -77,6 +77,24 @@ while count < 20:
         print(count)
     count += 1
 
+# Program for guessing the number
+import random
+
+jackpot = random.randint(1, 100)
+guess = int(input("Enter the number: "))
+counter = 1
+
+while guess != jackpot:
+    if guess < jackpot:
+        print("Guess Higher")
+    else:
+        print("Guess Lower")
+
+    guess = int(input("Enter the number: "))
+    counter += 1
+
+print("Right Answer 🎉")
+print(f"Total Attempts: {counter}")
 
 
 
