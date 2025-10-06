@@ -14,3 +14,28 @@
 while condition:
     code
 '''
+
+i = 1
+while i < 6:
+    print(i)
+    i += 1
+
+name = "Abdul Rehman"
+i = 1
+while i <= 10:
+    print(name)
+    i += 1
+
+num = int(input("Enter the table: "))
+i = 1
+while i <= 10:
+    print(i * num)
+    i += 1
+
+table = int(input("Enter the Table: "))
+rng = int(input("Enter the range: "))
+
+i = 1
+while i <= rng:
+    print(f"{table} x {i} = {i * table}")
+    i += 1
