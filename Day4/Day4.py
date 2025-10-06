@@ -61,7 +61,22 @@ while i >= 1:
     print(f"{table} x {i} = {table * i}")
     i -= 1
 
-    
+    # Even numbers
+print("Even numbers")
+count = 0
+while count < 20:
+    if count % 2 == 0:
+        print(count)
+    count += 1
+
+# Odd numbers
+print("Odd numbers")
+count = 0
+while count < 20:
+    if count % 2 == 1:
+        print(count)
+    count += 1
+
 
 
 
