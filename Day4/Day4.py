@@ -45,7 +45,28 @@ while i <= 10:
     print(i)
     i += 1
 else:
-    print("i is no longer less than 10")
+    print("i is no longer less than 
+    i += 1
+
+# Backward loop
+i = 10
+while i >= 0:
+    print(i)
+    i -= 1
+
+# Task: Table in backward direction
+table = int(input("Enter table for backward loop: "))
+i = 10
+while i >= 1:
+    print(f"{table} x {i} = {table * i}")
+    i -= 1
+
+    
+
+
+
+
+
 
 
 
@@ -61,4 +82,3 @@ else:
 
 
     
-    i += 1
