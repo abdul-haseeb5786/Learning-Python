@@ -96,22 +96,109 @@ while guess != jackpot:
 print("Right Answer 🎉")
 print(f"Total Attempts: {counter}")
 
+# ======================
+# For Loop Examples
+# ======================
+
+print(list(range(1, 11)))       # [1,2,3,...,10]
+print(list(range(5)))           # [0,1,2,3,4]
+print(list(range(1, 11, 2)))    # step of 2
+print(list(range(10, 0, -1)))   # backward
+
+for i in range(1, 10):
+    print(i)
+
+for i in range(10, 0, -1):
+    print(i)
+
+# Looping over a string
+for i in "Islamabad":
+    print(i)
+
+for i in "Islamabad":
+    print(i, end="")
+
+for i in range(1, 20, 2):
+    print(i)
+
+# Note:
+# When you know how many times the loop will run, use 'for loop'.
+# If you don’t know, use 'while loop' (like guessing game).
+
+# ======================
+# Break, Continue, Pass
+# ======================
+
+# Break
+for i in range(1, 11):
+    if i == 7:
+        break
+    print(i)
+
+# Continue
+for i in range(1, 11):
+    if i == 6:
+        continue
+    print(i)
+
+# Pass
+for i in range(1, 11):
+    pass
+
+# For loop with if condition
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+for i in "Islamabad":
+    if i == "a":
+        continue
+    print(i)
+
+for i in range(1, 20):
+    if i % 11 == 0:
+        print(f"{i} is multiple of 11")
+        break
+    else:
+        print(i)
+
+# ======================
+# Strings
+# ======================
+
+# Strings are sequence of characters.
+# In Python, they are sequences of Unicode characters.
+
+# Creating Strings
+name_1 = 'Ameen'
+name_2 = "Ali"
+name_3 = """Abdullah"""
+
+print(name_1)
+print(name_2)
+print(name_3)
+
+# Indexing and Slicing
+# Positive Indexing: Left to Right (0, 1, 2, ...)
+# Negative Indexing: Right to Left (-1, -2, ...)
+
+a = 'Hello'
+
+# Positive Indexing
+print(a[0])
+print(a[1])
+print(a[2])
+print(a[3])
+print(a[4])
+
+# print(a[5])  # IndexError: string index out of range
+
+# Negative Indexing
+print(a[-1])
+print(a[-2])
+print(a[-3])
+print(a[-4])
+print(a[-5])
+# print(a[-6])  # IndexError: string index out of range
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
