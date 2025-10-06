@@ -38,4 +38,27 @@ rng = int(input("Enter the range: "))
 i = 1
 while i <= rng:
     print(f"{table} x {i} = {i * table}")
+
+# while loop with else
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+else:
+    print("i is no longer less than 10")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     i += 1
