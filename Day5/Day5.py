@@ -5,3 +5,8 @@
 # ----------------------------------------------------------
 # 🔠 STRING OPERATIONS
 # ----------------------------------------------------------
+
+# Looping through strings
+name = "Abdul Rehman"
+for i in name:
+    print(i)
