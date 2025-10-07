@@ -198,35 +198,7 @@ print(max(set1))
 print(sum(set1))
 print(sorted(set1, reverse=True))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# ----------------------------------------------------------
+# 🏁 END OF DAY 5
+# ----------------------------------------------------------
+print("\n✅ Day 5 — Completed: Strings, Lists, Tuples, and Sets in Python ✅")
