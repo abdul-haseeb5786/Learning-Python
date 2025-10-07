@@ -29,6 +29,14 @@ print(" ".join(["Abdul", "Rehman"]))
 print("My name is {} and I am {} years old".format("Abdul Rehman", 20))
 print("My name is {name} and I am {age} years old".format(name="Abdul Rehman", age=20))
 
+# String tests
+s = "Python3"
+print(s.isalpha())    # False (contains number)
+print(s.isalnum())    # True
+print(s.isdigit())    # False
+print(s.isdecimal())  # False
+print(s.startswith("Py"))
+print(s.endswith("3"))
 
 
 
