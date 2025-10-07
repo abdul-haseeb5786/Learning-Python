@@ -38,7 +38,57 @@ print(s.isdecimal())  # False
 print(s.startswith("Py"))
 print(s.endswith("3"))
 
+# ----------------------------------------------------------
+# 🧮 MUTABLE VS IMMUTABLE DATA TYPES
+# ----------------------------------------------------------
+# Mutable: list, dict, set
+# Immutable: int, float, str, tuple
 
+# ----------------------------------------------------------
+# 🧾 LISTS
+# ----------------------------------------------------------
+
+# Creating lists
+students = ["asad", "fawad", "mehmmod", "aleem", "abdul rehman"]
+numbers = [1, 2, 3, 4, 5]
+mixed = ["hello", 10, True, 20.5]
+
+# Accessing list elements
+print(students[0])
+print(students[-1])
+print(students[1:4])
+
+# Editing elements
+students[0] = "Ali"
+students[2:4] = ["Zain", "Umair"]
+print(students)
+
+# Adding elements
+students.append("New Student")
+students.insert(2, "Inserted Student")
+students.extend(["Ameen", "Umer"])
+print(students)
+
+# Deleting elements
+del students[0]
+students.remove("Ameen")
+students.pop()
+students.clear()
+print(students)
+
+# Operations
+l1 = [1, 2, 3]
+l2 = [4, 5, 6]
+print(l1 + l2)
+print(l1 * 2)
+print(3 in l1)
+
+# Functions
+print(len(l1))
+print(min(l1))
+print(max(l1))
+print(sum(l1))
+print(sorted(l1, reverse=True))
 
 
 
