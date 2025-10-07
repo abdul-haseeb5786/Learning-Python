@@ -90,7 +90,26 @@ print(max(l1))
 print(sum(l1))
 print(sorted(l1, reverse=True))
 
+# ----------------------------------------------------------
+# 🧠 PRACTICE TASKS
+# ----------------------------------------------------------
 
+# Task 1: Capitalize each word without using title()
+string = "hello how are you"
+lst = [word.capitalize() for word in string.split()]
+print(" ".join(lst))
+
+# Task 2: Extract username from email
+email = "abc@gmail.com"
+print(email[:email.find("@")])
+
+# Task 3: Remove duplicates without using set()
+lst1 = [1,2,4,3,3,6,5,5,8,2,1,0,7,8,6,7]
+unique = []
+for i in lst1:
+    if i not in unique:
+        unique.append(i)
+print(unique)
 
 
 
