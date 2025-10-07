@@ -111,7 +111,20 @@ for i in lst1:
         unique.append(i)
 print(unique)
 
+# ----------------------------------------------------------
+# 🧱 TUPLES
+# ----------------------------------------------------------
 
+# Creating tuples
+t1 = (1, 2, 3)
+t2 = ("Ali", 25, True)
+t3 = (1, 2, (3, 4, 5))
+print(t1, t2, t3)
+
+# Accessing tuple elements
+print(t1[0])
+print(t1[-1])
+print(t3[2][1])
 
 
 
