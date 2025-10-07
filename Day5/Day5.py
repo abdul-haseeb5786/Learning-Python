@@ -19,3 +19,9 @@ print(string.lower())
 print(string.title())
 print(string.swapcase())
 
+# Finding and replacing
+print(string.find("man"))
+print(string.replace("Abdul", "Ali"))
+
+
+
