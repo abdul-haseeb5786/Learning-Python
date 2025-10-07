@@ -126,6 +126,24 @@ print(t1[0])
 print(t1[-1])
 print(t3[2][1])
 
+# Tuple type conversion
+lst = [10, 20, 30]
+tup = tuple(lst)
+print(tup)
+
+# Tuple operations
+t4 = (1, 2, 3)
+t5 = (4, 5, 6)
+print(t4 + t5)
+print(t4 * 2)
+
+# Tuple functions
+print(len(t4))
+print(min(t4))
+print(max(t4))
+print(sum(t4))
+print(sorted(t4, reverse=True))
+print(t4.index(2))
 
 
 
