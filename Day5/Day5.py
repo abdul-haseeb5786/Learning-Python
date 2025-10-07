@@ -23,5 +23,51 @@ print(string.swapcase())
 print(string.find("man"))
 print(string.replace("Abdul", "Ali"))
 
+# Splitting, joining, and formatting
+print(string.split())
+print(" ".join(["Abdul", "Rehman"]))
+print("My name is {} and I am {} years old".format("Abdul Rehman", 20))
+print("My name is {name} and I am {age} years old".format(name="Abdul Rehman", age=20))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
