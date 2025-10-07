@@ -164,6 +164,39 @@ print(sum(t4))
 print(sorted(t4, reverse=True))
 print(t4.index(2))
 
+# ----------------------------------------------------------
+# 🧩 SETS
+# ----------------------------------------------------------
+
+# Creating sets
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7, 8}
+
+print(set1)
+print(type(set1))
+
+# Adding elements
+set1.add(9)
+set1.update([10, 11])
+print(set1)
+
+# Deleting elements
+set1.remove(3)
+set1.discard(12)  # no error if element not found
+set1.pop()        # removes random element
+print(set1)
+
+# Set operations
+print(set1.union(set2))
+print(set1.intersection(set2))
+print(set1.difference(set2))
+
+# Common functions
+print(len(set1))
+print(min(set1))
+print(max(set1))
+print(sum(set1))
+print(sorted(set1, reverse=True))
 
 
 
