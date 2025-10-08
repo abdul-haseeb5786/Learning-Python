@@ -74,7 +74,12 @@ def power(a=1, b=1):
 print(power(2, 4))   # Both arguments given
 print(power(4))      
 
+def greet(name='Guest'):
+    print(f"Hello {name}")
 
+
+greet("Abdul")
+greet()
 
 
 
