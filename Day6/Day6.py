@@ -107,7 +107,17 @@ def flexible(*numbers):
 
 print(flexible(1, 2, 3))
 
+# -----------------------------
+# Arbitrary Keyword Arguments (**kwargs)
+# -----------------------------
+def student_info(**info):
+    print(info)
+    print(type(info))
+    for key, value in info.items():
+        print(f"{key} : {value}")
 
+
+print(student_info(name="Abdul Rehman", Roll_No=1020))
 
 
 
