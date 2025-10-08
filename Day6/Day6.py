@@ -37,6 +37,28 @@ for i in range(10):
 # Accessing function documentation
 print(is_even.__doc__)
 
+# -----------------------------
+# Difference between return and print
+# -----------------------------
+# print -> Displays output on screen (not reusable)
+# return -> Sends result back to caller (reusable)
+
+
+# -----------------------------
+# Parameters vs Arguments
+# -----------------------------
+# Parameter = Placeholder variable in function definition
+# Argument  = Actual value passed when calling the function
+
+
+# -----------------------------
+# Example Functions
+# -----------------------------
+def power(a, b):
+    return a ** b
+
+
+print(power(5, 6))  # Normal function call
 
 
 
