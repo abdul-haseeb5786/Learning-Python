@@ -81,6 +81,31 @@ def greet(name='Guest'):
 greet("Abdul")
 greet()
 
+# -----------------------------
+# Positional Arguments
+# -----------------------------
+print(power(2, 3))  # a=2, b=3
+
+
+# -----------------------------
+# Keyword Arguments
+# -----------------------------
+print(power(b=2, a=3))  # order doesn't matter when using keywords
+
+
+# -----------------------------
+# Arbitrary Positional Arguments (*args)
+# -----------------------------
+def flexible(*numbers):
+    product = 1
+    print(numbers)
+    print(type(numbers))
+    for i in numbers:
+        product *= i
+    print(product)
+
+
+print(flexible(1, 2, 3))
 
 
 
