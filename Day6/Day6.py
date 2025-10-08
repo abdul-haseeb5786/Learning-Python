@@ -60,7 +60,19 @@ def power(a, b):
 
 print(power(5, 6))  # Normal function call
 
+# Crashing example (missing argument)
+# power(5)  # Uncomment to see error
 
+
+# -----------------------------
+# Default Arguments
+# -----------------------------
+def power(a=1, b=1):
+    return a ** b
+
+
+print(power(2, 4))   # Both arguments given
+print(power(4))      
 
 
 
