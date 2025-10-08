@@ -27,3 +27,48 @@ def is_even(num):
         return 'Even'
     else:
         return 'Odd'
+
+# Function call examples
+print(is_even(6))
+
+for i in range(10):
+    print(is_even(i))
+
+# Accessing function documentation
+print(is_even.__doc__)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
