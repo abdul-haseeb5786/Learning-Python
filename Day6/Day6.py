@@ -119,6 +119,30 @@ def student_info(**info):
 
 print(student_info(name="Abdul Rehman", Roll_No=1020))
 
+# -----------------------------
+# Functions as Objects
+# -----------------------------
+def f(num):
+    return num ** 2
+
+
+print(f(4))
+
+# Assigning function to a variable
+x = f
+print(x(2))
+print(x(4))
+
+# Deleting original function name
+del f
+print(x(7))  # still works
+print(type(x))
+
+# Storing function in a list
+l = [1, 2, 3, 4, x]
+print(l)
+print(l )  # calling the function stored in list
+print([1, 2, 3, 4, x(5)])
 
 
 
