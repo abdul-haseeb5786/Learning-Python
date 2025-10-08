@@ -144,29 +144,14 @@ print(l)
 print(l )  # calling the function stored in list
 print([1, 2, 3, 4, x(5)])
 
+# -----------------------------
+# Exercise
+# -----------------------------
+def mean(arr):
+    total = 0
+    for val in arr:
+        total += val
+    return total / len(arr)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(mean([1, 2, 3, 4, 5]))
