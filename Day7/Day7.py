@@ -1,4 +1,4 @@
-# Day 7: Lambda Functions and Higher Order Functions
+# Day 7: Lambda Functions and Higher Order Function
 
 # ===============================
 # Calculator Function
