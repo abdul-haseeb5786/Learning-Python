@@ -24,3 +24,30 @@ f.close()
 with open("sample.txt", "r") as f:
     print("\nUsing 'with open':")
     print(f.read())
+
+# ---------------------------
+# 2. Practice Questions
+# ---------------------------
+
+# Create and write to practise.txt
+with open("practise.txt", "w") as f:
+    f.write("Hi Everyone\nWe are learning file I/O\n")
+    f.write("Using Python\nI like programming in Python")
+
+# Replace 'java' with 'python'
+with open("practise.txt", "r") as f:
+    data = f.read()
+data = data.replace("java", "python")
+with open("practise.txt", "w") as f:
+    f.write(data)
+
+# Check if a word exists
+with open("practise.txt", "r") as f:
+    content = f.read()
+if "learning" in content:
+    print("\nWord 'learning' found in file.")
+else:
+    print("\nWord 'learning' not found.")
+
+
+
