@@ -94,7 +94,25 @@ except Exception as e:
 else:
     print("\nRemaining Balance:", acc.balance)
 
+# ---------------------------
+# 5. Modules Examples
+# ---------------------------
 
+import math, random, time
+
+print("\n--- Math Module ---")
+print("Pi:", math.pi)
+print("Square root of 4:", math.sqrt(4))
+
+print("\n--- Random Module ---")
+print("Random number:", random.randint(1, 100))
+
+print("\n--- Time Module ---")
+print("Current time:", time.ctime())
+
+# Optional: Delete a file
+# import os
+# os.remove("sample.txt")
 
 
 
