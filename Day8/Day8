@@ -113,7 +113,3 @@ print("Current time:", time.ctime())
 # Optional: Delete a file
 # import os
 # os.remove("sample.txt")
-
-
-
-
