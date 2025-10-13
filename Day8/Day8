@@ -71,7 +71,28 @@ try:
 except ZeroDivisionError as e:
     print("\nRaised Exception:", e)
 
+# ---------------------------
+# 4. Custom Exception Example
+# ---------------------------
 
+class Bank:
+    def __init__(self, balance):
+        self.balance = balance
+
+    def withdraw(self, amount):
+        if amount < 0:
+            raise Exception("Amount cannot be negative.")
+        if self.balance < amount:
+            raise Exception("Amount exceeds balance.")
+        self.balance -= amount
+
+try:
+    acc = Bank(1000)
+    acc.withdraw(200)
+except Exception as e:
+    print(e)
+else:
+    print("\nRemaining Balance:", acc.balance)
 
 
 
