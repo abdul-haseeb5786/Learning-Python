@@ -19,3 +19,8 @@ f.close()
 f = open("sample.txt", "a")
 f.write(" Then I will go to Machine Learning.")
 f.close()
+
+# Using 'with open' (auto close)
+with open("sample.txt", "r") as f:
+    print("\nUsing 'with open':")
+    print(f.read())
