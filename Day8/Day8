@@ -14,3 +14,8 @@ f.close()
 f = open("sample.txt", "w")
 f.write("I want to learn Python tomorrow.")
 f.close()
+
+# Appending data to a file
+f = open("sample.txt", "a")
+f.write(" Then I will go to Machine Learning.")
+f.close()
