@@ -65,6 +65,16 @@ else:
 finally:
     print("Finally block executed.")
 
+# Raising custom exceptions
+try:
+    raise ZeroDivisionError("Can't divide by 0")
+except ZeroDivisionError as e:
+    print("\nRaised Exception:", e)
+
+
+
+
+
 
 
 
