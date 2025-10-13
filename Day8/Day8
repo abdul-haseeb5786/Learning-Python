@@ -9,3 +9,8 @@ f = open("sample.txt", "r")
 print("Reading File Content:")
 print(f.read())
 f.close()
+
+# Writing to a file (overwrite existing content)
+f = open("sample.txt", "w")
+f.write("I want to learn Python tomorrow.")
+f.close()
