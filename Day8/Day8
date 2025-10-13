@@ -49,5 +49,22 @@ if "learning" in content:
 else:
     print("\nWord 'learning' not found.")
 
+# ---------------------------
+# 3. Exception Handling
+# ---------------------------
+
+try:
+    f = open("missingfile.txt", "r")
+    print(f.read())
+except FileNotFoundError:
+    print("\nFile not found.")
+except Exception as e:
+    print("\nSome error occurred:", e)
+else:
+    print("\nFile read successfully.")
+finally:
+    print("Finally block executed.")
+
+
 
 
