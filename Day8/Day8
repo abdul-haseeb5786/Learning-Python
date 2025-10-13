@@ -1,1 +1,11 @@
+# Day 8: File Handling, Exception Handling & Modules
 
+# ---------------------------
+# 1. File Handling Examples
+# ---------------------------
+
+# Reading from a file
+f = open("sample.txt", "r")
+print("Reading File Content:")
+print(f.read())
+f.close()
