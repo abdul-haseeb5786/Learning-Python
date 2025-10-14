@@ -159,7 +159,167 @@ class ATM:
 # Uncomment to test
 # ubl = ATM()
 
+# -------------------------------
+# 5️⃣ Encapsulation
+# -------------------------------
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name          # public attribute
+        self.__salary = salary    # private attribute
 
+emp = Employee("Fredrick", 50000)
+print(emp.name)
+# print(emp.__salary)  # ❌ Error: private attribute
+
+
+# -------------------------------
+# 6️⃣ Inheritance
+# -------------------------------
+class User:
+    def login(self):
+        print("Login")
+    def register(self):
+        print("Register")
+
+class Student(User):
+    def enroll(self):
+        print("Enroll")
+    def review(self):
+        print("Review")
+
+s1 = Student()
+s1.enroll()
+s1.review()
+s1.login()
+s1.register()
+
+
+# -------------------------------
+# 7️⃣ Inheritance with super()
+# -------------------------------
+class Car:
+    def __init__(self, seats, tyres, steering, brake, horn, car_name):
+        self.seats = seats
+        self.tyres = tyres
+        self.steering = steering
+        self.brake = brake
+        self.horn = horn
+        self.car_name = car_name
+
+    def speed(self):
+        print(f"The {self.car_name} is running")
+
+    def describe_car(self):
+        print(f"""
+        Car Model: {self.car_name}
+        Seats: {self.seats}
+        Tyres: {self.tyres}
+        Horn: {self.horn}
+        Steering: {self.steering}
+        Brake: {self.brake}
+        """)
+
+class ElectricCar(Car):
+    def __init__(self, make, model, year, engine, seats, tyres, steering, brake, horn, car_name):
+        super().__init__(seats, tyres, steering, brake, horn, car_name)
+        self.make = make
+        self.model = model
+        self.year = year
+        self.engine = engine
+
+    def describe_electric_car(self):
+        print(f"""
+        Company: {self.make}
+        Model: {self.model}
+        Year: {self.year}
+        Engine: {self.engine}
+        """)
+
+e1 = ElectricCar('Tesla', 'ES01', 2021, 'Erc20', 4, 4, 'Right', 'ABS', 'Light', 'Model X')
+e1.speed()
+e1.describe_car()
+e1.describe_electric_car()
+
+
+# -------------------------------
+# 8️⃣ Polymorphism
+# -------------------------------
+class Animal:
+    def sound(self):
+        print("Animal makes a sound")
+
+class Dog(Animal):
+    def sound(self):
+        print("Dog barks")
+
+class Cat(Animal):
+    def sound(self):
+        print("Cat meows")
+
+animals = [Dog(), Cat(), Animal()]
+for a in animals:
+    a.sound()
+
+
+# -------------------------------
+# 9️⃣ Abstraction
+# -------------------------------
+from abc import ABC, abstractmethod
+
+class BankApp(ABC):
+    def database(self):
+        print("Connected to database")
+
+    @abstractmethod
+    def security(self):
+        pass
+
+class MobileApp(BankApp):
+    def mobile_login(self):
+        print("Login to mobile")
+
+    def security(self):
+        print("Mobile security")
+
+mob = MobileApp()
+mob.database()
+mob.mobile_login()
+mob.security()
+
+
+# -------------------------------
+# 🔟 Magic Methods
+# -------------------------------
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __add__(self, other):
+        return Point(self.x + other.x, self.y + other.y)
+
+p1 = Point(2, 3)
+p2 = Point(4, 5)
+result = p1 + p2
+print(result.x, result.y)
+
+
+# Override Magic Methods
+class CarMagic:
+    def __init__(self, windows, doors, engine_type):
+        self.windows = windows
+        self.doors = doors
+        self.engine_type = engine_type
+
+    def __str__(self):
+        return "The object has been initialized"
+
+    def __sizeof__(self):
+        return "The size of object in bytes"
+
+c = CarMagic(8, 9, "Gas")
+print(c)
+print(c.__sizeof__())
 
 
 
