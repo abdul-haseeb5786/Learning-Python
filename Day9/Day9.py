@@ -33,7 +33,25 @@ class MyClass:
 p1 = MyClass()
 print(p1.x)
 
+# -------------------------------
+# 2️⃣ Class and Object Example
+# -------------------------------
+class student:
+    # Data (Attributes)
+    name = "Abdul Rehman"
+    roll_no = 1020
+    course = "Data Sciences"
+    location = "Gulshan"
 
+    # Methods (Behaviors)
+    def study(self):
+        print(f"{self.name} is studying")
+
+    def exam(self):
+        print(f"{self.name} is giving an exam")
+
+    def fee(self):
+        print(f"{self.name} has submitted the fee")
 
 
 
