@@ -53,7 +53,12 @@ class student:
     def fee(self):
         print(f"{self.name} has submitted the fee")
 
-
+# Object
+s1 = student()
+print(s1.name, s1.roll_no, s1.course, s1.location)
+s1.study()
+s1.exam()
+s1.fee()
 
 
 
