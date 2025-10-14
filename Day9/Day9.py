@@ -25,6 +25,13 @@
 # 1️⃣ Class and Object
 # -------------------------------
 
+# Example
+class MyClass:
+    x = 5
+
+# Create object
+p1 = MyClass()
+print(p1.x)
 
 
 
