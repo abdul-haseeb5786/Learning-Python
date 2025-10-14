@@ -320,7 +320,3 @@ class CarMagic:
 c = CarMagic(8, 9, "Gas")
 print(c)
 print(c.__sizeof__())
-
-
-
-
